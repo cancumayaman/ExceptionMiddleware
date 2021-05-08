@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionMiddleware", "ExceptionMiddleware\ExceptionMiddleware.csproj", "{F83E98C7-03B2-4942-86DA-20C189C6BC2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossCuttingConcerns", "..\CrossCuttingConcerns\CrossCuttingConcerns.csproj", "{A6E49B1B-4F1F-497E-A19F-A5D2EE7D6D96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F83E98C7-03B2-4942-86DA-20C189C6BC2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F83E98C7-03B2-4942-86DA-20C189C6BC2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F83E98C7-03B2-4942-86DA-20C189C6BC2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F83E98C7-03B2-4942-86DA-20C189C6BC2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6E49B1B-4F1F-497E-A19F-A5D2EE7D6D96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6E49B1B-4F1F-497E-A19F-A5D2EE7D6D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6E49B1B-4F1F-497E-A19F-A5D2EE7D6D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6E49B1B-4F1F-497E-A19F-A5D2EE7D6D96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D68FBE27-8D1E-4EB9-ABAF-A10ED01DEAF2}
+	EndGlobalSection
+EndGlobal
